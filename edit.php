@@ -1,6 +1,6 @@
 <?php
 
-include "confict.php";
+include "config.php";
 
 $id = $_GET['id'];
 
@@ -28,7 +28,7 @@ $row = mysqli_fetch_assoc($data);
         <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
 
         <div>
-            <label>Nama</label><br>
+            <label>ID</label><br>
             <input type="text" name="Nama"
                    value="<?php echo htmlspecialchars($row['Nama']); ?>" required>
         </div>
