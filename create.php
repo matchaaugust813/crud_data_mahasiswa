@@ -13,20 +13,20 @@
 
         <div>
             <label>Nama</label><br>
-            <input type="text" name="Nama" required>
+            <input type="text" name="nama" required>
         </div>
         <br>
 
         <div>
             <label>NIM</label><br>
-            <input type="text" name="NIM" required>
+            <input type="text" name="nim" required>
         </div>
         <br>
 
         <div>
-            <label>Prodi</label><br>
-            <select name="Prodi" required>
-                <option value="">-- Pilih Prodi --</option>
+            <label>Jurusan</label><br>
+            <select name="jurusan" required>
+                <option value="">-- Pilih Jurusan --</option>
                 <option value="Teknik Informatika">Teknik Informatika</option>
                 <option value="Teknik Industri">Teknik Industri</option>
                 <option value="Teknik Sipil">Teknik Sipil</option>
@@ -35,12 +35,18 @@
         </div>
         <br>
 
+        <div>
+            <label>Angkatan</label><br>
+            <input type="text" name="angkatan" required>
+        </div>
+        <br>
+
         <button type="submit">Simpan</button>
 
     </form>
 
     <br>
-    <a href="index.html">Kembali</a>
+    <a href="index.php">Kembali</a>
 
 </body>
 </html>
